@@ -39,7 +39,7 @@ Dokumentacja API %{module}.
 %prep
 %setup -q -n %{module}-%{version}
 %ifarch x32
-%patch0 -p1
+%patch -P0 -p1
 %endif
 
 %build
